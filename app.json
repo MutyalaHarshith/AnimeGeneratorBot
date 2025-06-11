@@ -1,0 +1,61 @@
+{
+  "name": "AnimeGeneratorBot",
+  "description": "A Telegram bot that generates anime images.",
+  "repository": "https://github.com/MutyalaHarshith/AnimeGeneratorBot",
+  "keywords": [
+    "telegram",
+    "bot",
+    "anime"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "TOKEN": {
+      "description": "Telegram Bot token from @BotFather",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API hash from https://my.telegram.org (from @GenStringSessionBot)",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Telegram API ID from https://my.telegram.org (from @GenStringSessionBot)",
+      "required": true
+    },
+    "MONGO_URI": {
+      "description": "MongoDB URI (optional, if you use MongoDB)",
+      "required": false
+    },
+    "MONGO_NAME": {
+      "description": "MongoDB collection name",
+      "value": "AnimeBot"
+    },
+    "FORCE": {
+      "description": "Force sub channel flag (set to 'true' to enable, otherwise 'false')",
+      "value": "false"
+    },
+    "CHANNEL_LINK": {
+      "description": "Telegram channel link for forced sub (optional)",
+      "required": false
+    },
+    "CHANNEL_USERNAME": {
+      "description": "Telegram channel username (with @) for forced sub (optional)",
+      "required": false
+    },
+    "OWNER": {
+      "description": "Owner's Telegram user ID (from @MissRose_bot)",
+      "required": true
+    },
+    "NSFW": {
+      "description": "NSFW flag: set to 'true' for NSFW-only content, otherwise 'false'",
+      "value": "false"
+    },
+    "PORT": {
+      "description": "Port for the web server (Heroku sets this automatically, default is 8000)",
+      "value": "8000"
+    }
+  }
+}
