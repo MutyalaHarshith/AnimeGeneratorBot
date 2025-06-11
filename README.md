@@ -74,4 +74,4 @@ You can find the list of libraries used in this project and their purposes in th
 ---
 
 ## 🔖 License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU License](LICENSE).
