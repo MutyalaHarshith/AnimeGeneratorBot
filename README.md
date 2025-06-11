@@ -56,7 +56,9 @@ python3 bot.py
 ```
 ### ☁️ One-Click Deployment
 Deploy easily using these platforms:
+
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/MutyalaHarshith/AnimeGeneratorBot)
+
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MutyalaHarshith/AnimeGeneratorBot)  
 
 ---
